@@ -1,14 +1,23 @@
 {
   "name": "postman-project",
   "version": "1.0.0",
-  "description": "Demo Project for Postman-Newman-Jenkins Integration",
+  "description": "postman + newman + jenkins pipeline",
   "directories":{
     "tests": "tests"
   },
   "scripts": {
     "api-tests-production": "newman run tests/json-placeholder-project.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffenc/postman-project.git"
+  },
   "author": "Jeffrey Encarnacion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffenc/postman-project/issues"
+  },
+  "homepage": "https://github.com/jeffenc/postman-project#readme",
   "dependencies": {
     "newman": "^3.9.3"
   }
