@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Demo Project for Postman-Newman-Jenkins Integration",
   "scripts": {
-    "api-tests-production": "newman run tests/json-placeholder-project.postman_collection.json"
+    "api-tests-production": "newman run tests/json-placeholder-project.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "Jeffrey Encarnacion",
   "dependencies": {
