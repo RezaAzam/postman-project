@@ -1,0 +1,12 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Demo Project for Postman-Newman-Jenkins Integration",
+  "scripts": {
+    "api-tests-production": "newman run tests/json-placeholder-project.postman_collection.json"
+  },
+  "author": "Jeffrey Encarnacion",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
